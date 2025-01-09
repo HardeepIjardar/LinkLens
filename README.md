@@ -32,6 +32,8 @@ To run this project, ensure you have the following installed:
 
    ```bash
    npm install
+   nom install validator
+   npm install chalk
    ```
 
 3. **Create the `BlockedURL.txt` file**:
