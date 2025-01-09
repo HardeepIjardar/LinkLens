@@ -135,7 +135,3 @@ node main.js https://example.com
 - `chalk`: A library for styled console output.
 - `fs`: A built-in Node.js module for reading and writing files.
 - `url`: A built-in Node.js module for URL parsing.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
