@@ -1,0 +1,24 @@
+{
+  "name": "linklens",
+  "version": "0.0.1",
+  "description": "A JS project which checks if the input url is valid or not and extracts the parameters from the url",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node --watch main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardeepIjardar/LinkLens.git"
+  },
+  "author": "hardeepijardar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HardeepIjardar/LinkLens/issues"
+  },
+  "homepage": "https://github.com/HardeepIjardar/LinkLens#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "validator": "^13.12.0"
+  }
+}
