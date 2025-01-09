@@ -14,7 +14,6 @@ This project is a simple Node.js application that validates and checks URLs agai
 
 To run this project, ensure you have the following installed:
 
-- **Node.js** (preferably v14 or above)
 - **npm** (Node package manager)
 
 ## Installation
@@ -32,19 +31,9 @@ To run this project, ensure you have the following installed:
 
    ```bash
    npm install
-   nom install validator
-   npm install chalk
    ```
 
-3. **Create the `BlockedURL.txt` file**:
-
-   In the project directory, create a file called `BlockedURL.txt` containing the URLs you want to block. For example:
-
-   ```
-   www.blockedsite.com
-   malicious.com
-   tiktok.com
-   ```
+3. **To Block some additional urls update the `BlockedURL.txt` file**:
 
 4. **Create the `url.txt` file** (Optional):
 
@@ -56,12 +45,6 @@ To run the script, use the following command from the terminal:
 
 ```bash
 node main.js <url>
-```
-
-Where `<url>` is the URL you want to check. For example:
-
-```bash
-node main.js https://example.com
 ```
 
 ### Output
