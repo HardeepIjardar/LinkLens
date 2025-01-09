@@ -14,7 +14,6 @@ This project is a simple Node.js application that validates and checks URLs agai
 
 To run this project, ensure you have the following installed:
 
-- **Node.js** (preferably v14 or above)
 - **npm** (Node package manager)
 
 ## Installation
@@ -22,8 +21,8 @@ To run this project, ensure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/HardeepIjardar/LinkLens
+   cd LinkLens
    ```
 
 2. **Install dependencies**:
@@ -34,15 +33,7 @@ To run this project, ensure you have the following installed:
    npm install
    ```
 
-3. **Create the `BlockedURL.txt` file**:
-
-   In the project directory, create a file called `BlockedURL.txt` containing the URLs you want to block. For example:
-
-   ```
-   www.blockedsite.com
-   malicious.com
-   tiktok.com
-   ```
+3. **To Block some additional urls update the `BlockedURL.txt` file**:
 
 4. **Create the `url.txt` file** (Optional):
 
@@ -54,12 +45,6 @@ To run the script, use the following command from the terminal:
 
 ```bash
 node main.js <url>
-```
-
-Where `<url>` is the URL you want to check. For example:
-
-```bash
-node main.js https://example.com
 ```
 
 ### Output
@@ -135,7 +120,3 @@ node main.js https://example.com
 - `chalk`: A library for styled console output.
 - `fs`: A built-in Node.js module for reading and writing files.
 - `url`: A built-in Node.js module for URL parsing.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
